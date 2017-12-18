@@ -1,1 +1,1 @@
-This respository is made for codes which automate boring an mundane tasks.
+This respository is made for codes which automate boring and mundane tasks.
