@@ -8,13 +8,13 @@ Created on Fri Jan 12 23:03:01 2018
 import os
 import shutil
 
-file=open(os.path.join('C:\\Users\\Shivam\\Music','file.txt'),'r')
+file=open(os.path.join('','file.txt'),'r')
 for line in file:
     folder=line.strip()
-    os.mkdir('C:\\Users\\Shivam\\Music\\'+folder)
+    os.mkdir(''+folder)
     txt=line.strip()+'.txt'
     if (txt[:-4])==folder:
-        shutil.move('C:\\Users\\Shivam\\Music\\'+txt,'C:\\Users\\Shivam\\Music\\'+folder)
+        shutil.move(''+txt,''+folder)
 file.close()
 
 print('all done!')
